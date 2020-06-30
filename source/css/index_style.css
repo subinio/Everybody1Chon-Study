@@ -1,0 +1,408 @@
+/****************************home.html******************************/
+.home_style{
+    width:100%;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+#calendar {
+    max-width: 50%;
+    margin: 0%;
+    color: white;
+    padding: 20px;
+    background: #14A65F;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    float: left;
+}
+
+#calendar #go{
+    color: white;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding:2px;
+    text-decoration: none;
+    float: right;
+}
+
+#mini_notice {
+    max-width: 50%;
+    margin: 0%;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+#mini_notice .table td {
+  border-top: 1px solid #14A65F;
+  border-bottom: 1px solid #14A65F;
+  color: gray;
+}
+
+#mini_notice .table td a{
+  color: #34495E;
+}
+/******************** login.html ***************************/
+.login_style{
+    padding: 50px 0px;
+    color:#14A65F;
+}
+
+.login_style h1{
+    text-align: center;
+}
+
+.login_style .box{
+    width: 500px;
+    border: 2px solid #14A65F;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login_style .fieldlabel{
+    float:left;
+    width:120px;
+    text-align:right;
+    padding-right:10px;
+}
+
+.login_style .inputfield{
+    border: 1px solid #ffc336;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.login_style form .inputform{
+    width: 350px;
+    float: left;
+}
+
+.login_style .inputbtn{
+    color: #14A65F;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.login_style .box .find{
+    width: 100%;
+    text-align: center;
+}
+
+.login_style .box .find a{
+    color: #34495E;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+/******************** signup.html ***************************/
+.signup_style{
+    color:#14A65F;
+    padding: 50px 0px;
+}
+
+.signup_style h1{
+    text-align: center;
+}
+
+.signup_style .box{
+    width: 600px;
+    border: 2px solid #14A65F;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signup_style .box form{
+    width: 410px;
+    margin: 0 auto;
+}
+
+.signup_style .fieldlabel{
+    float:left;
+    width:120px;
+    text-align:right;
+    padding-right:10px;
+}
+
+.signup_style .inputfield{
+    border: 1px solid #ffc336;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.signup_style .intchkbox{
+    overflow: hidden;
+    width: 280px;
+}
+.signup_style .chkbox{
+    margin-left: 5px;
+}
+
+.signup_style .inputbtn{
+    color: #14A65F;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    clear: both;
+    margin:50px 115px 0px;
+}
+
+/***************************mypage.html****************************/
+.mypage_style{
+    color:#14A65F;
+    padding: 80px 0px 100px 0px;
+}
+
+.mypage_style h1{
+    text-align: center;
+}
+
+.mypage_style .box{
+    width: 1100px;
+    border: 2px solid #14A65F;
+    border-radius: 5px;
+    padding: 50px 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.mypage_style .leftbox img{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    display: block; margin: 0 auto;
+}
+
+.mypage_style .box .leftbox{
+    width: 400px;
+    padding: 50px 30px;
+    float:left;
+}
+
+.mypage_style .box .rightbox{
+    width:600px;
+    padding: 0px 100px;
+    float: right;
+}
+
+.mypage_style .fieldlabel{
+    float:left;
+    width:150px;
+    text-align:right;
+    padding-right:10px;
+}
+
+.mypage_style .inputfield{
+    border: 1px solid #ffc336;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.mypage_style .inputbtn{
+    color: #14A65F;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    clear: both;
+    margin:50px 115px 0px;
+}
+
+/***************************findid.html*************************************/
+.findid_style{
+    color:#14A65F;
+    padding: 50px 0px;
+}
+
+.findid_style h1{
+    text-align: center;
+}
+
+.findid_style .box{
+    width: 500px;
+    border: 2px solid #14A65F;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.findid_style .fieldlabel{
+    float:left;
+    width:100px;
+    text-align:right;
+    padding-right:10px;
+}
+
+.findid_style .inputfield{
+    border: 1px solid #ffc336;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.findid_style form .inputform{
+    width: 430px;
+    margin: 0 auto;
+}
+
+.findid_style form .inputform button{
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.findid_style .inputbtn{
+    color: #14A65F;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    clear: both;
+    margin:50px 115px 0px;
+}
+
+/***********************findpassword.html***********************/
+.findpw_style{
+    color:#14A65F;
+    padding: 50px 0px;
+}
+
+.findpw_style h1{
+    text-align: center;
+}
+
+.findpw_style .box{
+    width: 500px;
+    border: 2px solid #14A65F;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.findpw_style .fieldlabel{
+    float:left;
+    width:100px;
+    text-align:right;
+    padding-right:10px;
+}
+
+.findpw_style .inputfield{
+    border: 1px solid #ffc336;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.findpw_style form .inputform{
+    width: 430px;
+    margin: 0 auto;
+}
+
+.findpw_style form .inputform button{
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.findpw_style .inputbtn{
+    color: #14A65F;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #14A65F;
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    clear: both;
+    margin:50px 115px 0px;
+}
+
+/********************** notice.html ********************/
+.notice_style{
+    color:#34495E;
+    padding: 50px 0px;
+}
+
+.notice_style h1{
+    text-align: center;
+}
+
+.notice_style table thead{
+    color: #34495E;
+}
+.notice_style table tbody a{
+    color: black;
+}
+
+.notice_style table {
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+/******************* notice_view.html**********************/
+.notice_view_style{
+    border: 1px solid #34495E;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.notice_view_style .board .content{
+    clear: both;
+    text-align: center;
+    margin: 80px 0px 50px;
+}
+
+.notice_view_style .board .comment_input{
+    text-align:center;
+}
+
+.notice_view_style .board .comment_input input{
+  width: 600px;
+  margin: 0px 20px;
+  border: 2px solid #34495E;
+}
+
+.notice_view_style .board .comment_input button{
+  padding: 0PX 20px;
+  border-radius: 20px;
+  border: 2px solid #14A65F;
+  background-color: #14A65F;
+  color: white;
+  text-align:center;
+}
+
+.notice_view_style .board .comment .table tr th{
+    border-color: transparent !important;
+}
+
+.notice_view_style .board .comment .table tr td{
+    border-color: transparent !important;
+}

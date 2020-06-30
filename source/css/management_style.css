@@ -1,0 +1,104 @@
+/******************management_home.html*************************/
+.management_home_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.management_home_style .group_nav a{
+  color: #14A65F;
+}
+
+.management_home_style .group_content{
+  overflow: hidden;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: 50px;
+}
+
+/**************************management_calendar.html***************************/
+.management_calendar_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.management_calendar_style .group_nav a{
+  color: #14A65F;
+}
+
+.management_calendar_style .group_content{
+  overflow: hidden;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: 50px;
+}
+
+.management_calendar_style #calendar {
+  max-width: 70%;
+  margin: 0%;
+  color: white;
+  padding: 20px;
+  background: #14A65F;
+  border: 2px solid #14A65F;
+  border-radius: 10px;
+  float: left;
+}
+
+.management_calendar_style .fc-unthemed td.fc-today{
+  background: lightgray;
+  opacity: 0.5;
+}
+.management_calendar_style .schedule{
+  text-align: center;
+}
+
+
+/******************management_map.html*************************/
+.management_map_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.management_map_style .group_nav a{
+  color: #14A65F;
+}
+
+.management_map_style .group_content{
+  overflow: hidden;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: 50px;
+}
+
+/******************management_certificationboard.html*************************/
+.management_certificationboard_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.management_certificationboard_style .group_nav a{
+  color: #14A65F;
+}
+
+.management_certificationboard_style .group_content{
+  overflow: hidden;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: 50px;
+}
+
+/******************management_freeboard.html*************************/
+.management_freeboard_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.management_freeboard_style .group_nav a{
+  color: #14A65F;
+}
+
+.management_freeboard_style .group_content{
+  overflow: hidden;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: 50px;
+}

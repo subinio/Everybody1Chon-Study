@@ -1,0 +1,208 @@
+/*************** recruitment_list.html ********************/
+.recruitment_list_style{
+    width:100%;
+    padding: 50px 0px;
+    overflow: hidden;
+    text-align: center; /************/
+}
+
+.recruitment_list_style .makefield{ 
+    position: fixed; _position: absolute; _z-index:-1;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    right: 200px; 
+    bottom: 20px; 
+    border-radius: 50%;
+    background-color: rgba(255, 195, 54, 0.7);
+    text-align:center;
+    font-size: 50px; 
+}
+
+.recruitment_list_style .makefield:hover{
+  border: 3px solid #34495E;
+}
+
+
+.recruitment_list_style .searchfield{
+    overflow: hidden;
+    text-align: center;
+}
+
+.recruitment_list_style .searchfield input{
+    height: 40px;
+    width: 800px;
+    border: 2px solid #14A65F;
+    border-radius: 50px;
+    background-color: none;
+    padding: 0px 20px;
+    color:#34495E;
+    font-size: 20px;
+}
+
+.recruitment_list_style .searchfield input:active,
+.recruitment_list_style .searchfield input:focus{
+    border: 2px solid #ffc336;
+}
+
+
+.recruitment_list_style .searchfield button{
+    color: #14A65F;  
+    font-size: 30px;
+    text-shadow: 1px 1px gray;
+    background-color: transparent;
+    border: none;
+}
+
+.recruitment_list_style .cardfield .groupcard{
+    width: 380px; 
+    height: 380px;  
+    float:left;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.recruitment_list_style .cardfield .groupcard .content{
+    width:100%; 
+    height:100%;
+    border: 3px solid #14A65F;
+    border-radius: 20px;
+    padding: 20px;
+    color: #14A65F;
+}
+
+.recruitment_list_style .cardfield .groupcard .content:hover,
+.recruitment_list_style .cardfield .groupcard .content:hover div{
+    border: 2px solid #ffc336;
+    color: #ffc336;
+}
+
+.recruitment_list_style .cardfield .groupcard .content h1{
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+}
+
+.recruitment_list_style .cardfield .groupcard .content div{
+    border: 2px solid #34495E;
+    border-radius: 10px;
+    width: 85px;
+    height: 50px;
+    float:left;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #34495E;
+    padding: 2px 0px;
+}
+.recruitment_list_style .cardfield .groupcard .content #intro{
+    clear: both;
+    padding-top: 10px;
+}
+
+
+
+/*************** recruitment_enroll.html ********************/
+.recruitment_enroll_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.recruitment_enroll_style h1{
+  text-align: center;
+}
+
+.recruitment_enroll_style .box{
+  width: 800px;
+  border: 2px solid #14A65F;
+  border-radius: 5px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recruitment_enroll_style .box form{
+  width: 430px;
+  margin: 0 auto;
+}
+
+.recruitment_enroll_style .fieldlabel{
+  float:left;
+  width:120px;
+  text-align:right;
+  padding-right:10px;
+}
+
+.recruitment_enroll_style .inputfield{
+  border: 1px solid #ffc336;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.recruitment_enroll_style .intchkbox{
+  overflow: hidden;
+  width: 280px;
+}
+.recruitment_enroll_style .chkbox{
+  margin-left: 5px;
+}
+
+.recruitment_enroll_style .inputbtn{
+  color: #14A65F;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #14A65F;
+  border-radius: 10px;
+  padding: 20px 50px;
+  text-align: center;
+  clear: both;
+  margin:50px 115px 0px;
+}
+
+/*************** recruitment_join.html ********************/
+.recruitment_join_style{
+  color:#14A65F;
+  padding: 50px 0px;
+}
+
+.recruitment_join_style h1{
+  text-align: center;
+}
+
+.recruitment_join_style .box{
+  width: 800px;
+  border: 2px solid #14A65F;
+  border-radius: 5px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.recruitment_join_style .box a:hover{
+  text-decoration: none;
+}
+
+.recruitment_join_style .box a div{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid #14A65F;
+  background-color: #14A65F;
+  color: white;
+  text-align:center;
+}
+
+.recruitment_join_style .box a div:hover{
+  border : 2px solid #34495E;
+}
+
+
+
+
